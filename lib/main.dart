@@ -1,4 +1,4 @@
-import 'package:catalog/routing/router.dart';
+import 'package:catalog/routing/catalog_router.dart';
 import 'package:catalog/routing/routers.dart';
 import 'package:flutter/material.dart' hide Router;
 import 'package:go_router/go_router.dart';
@@ -14,7 +14,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp.router(
       routerConfig: GoRouter(
-        routes: Router.routes,
+        routes: CatalogRouter.routes,
         initialLocation: Routers.catalog,
       ),
     );

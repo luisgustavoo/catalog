@@ -1,1 +1,3 @@
-export 'package:catalog/routing/router.dart';
+library catalog;
+
+export 'package:catalog/routing/catalog_router.dart';

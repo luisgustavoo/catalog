@@ -2,7 +2,7 @@ import 'package:catalog/catalog/widgets/catalog_screen.dart';
 import 'package:go_router/go_router.dart';
 import 'routers.dart';
 
-class Router {
+class CatalogRouter {
   static List<GoRoute> routes = [
     GoRoute(
       path: Routers.catalog,
