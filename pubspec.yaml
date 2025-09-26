@@ -2,6 +2,7 @@ name: catalog
 description: "A new Flutter project."
 publish_to: 'https://pub.pkg.github.com/luisgustavoo'
 version: 0.1.0
+repository: https://github.com/luisgustavoo/catalog
 
 environment:
   sdk: ^3.9.2
