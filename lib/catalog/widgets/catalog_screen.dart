@@ -13,6 +13,7 @@ class CatalogScreen extends StatelessWidget {
           ListTile(title: Text('Produto 2')),
           ListTile(title: Text('Produto 3')),
           ListTile(title: Text('Produto 4')),
+          ListTile(title: Text('Produto 5')),
         ],
       ),
     );
